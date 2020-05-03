@@ -1,9 +1,9 @@
 
-function foo(message){
-  Logger.info(message);
+function foo(name){
+  Logger.info("Hello " + name);
 }
 
 function bar(){
-  foo("Hello world");
-  foo("Hello again");
+  foo("world");
+  foo("again");
 }
